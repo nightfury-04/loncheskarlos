@@ -79,13 +79,13 @@
             <div class="navbar-nav ml-auto py-0">
               <a href="index.php" class="nav-item nav-link active">Inicio</a>
               <a href="about.php" class="nav-item nav-link">Nosotros</a>
-              <a href="product.php" class="nav-item nav-link">Sucursales</a>
+              <a href="branches.php" class="nav-item nav-link">Sucursales</a>
             </div>
             <a href="index.php" class="navbar-brand mx-5 d-none d-lg-block">
               <h1 class="m-0 display-4 text-primary">Lonches Karlo's</h1>
             </a>
             <div class="navbar-nav mr-auto py-0">
-              <a href="service.php" class="nav-item nav-link"></a>
+              <a href="" class="nav-item nav-link"></a>
               <a href="menu.php" class="nav-item nav-link">Menú</a>
               <a href="contact.php" class="nav-item nav-link">Contacto</a>
             </div>
