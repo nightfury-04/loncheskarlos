@@ -16,6 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
     <link
@@ -61,7 +62,7 @@
         <nav
           class="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0"
         >
-          <a href="index.html" class="navbar-brand d-block d-lg-none">
+          <a href="index.php" class="navbar-brand d-block d-lg-none">
             <h1 class="m-0 display-4 text-primary">Lonches Karlo's</h1>
           </a>
           <button
@@ -82,7 +83,7 @@
               <a href="branches.php" class="nav-item nav-link">Sucursales</a>
             </div>
             <a href="index.php" class="navbar-brand mx-5 d-none d-lg-block">
-              <h1 class="m-0 display-4 text-primary">Lonches Karlo's</h1>
+              <h1 class="m-0 display-4 text-primary"> <em>Lonches</em> <span style="color: #473729; font-family: 'Galada', cursive"> karlo's </span></h1>
             </a>
             <div class="navbar-nav mr-auto py-0">
               <a href="" class="nav-item nav-link"></a>
