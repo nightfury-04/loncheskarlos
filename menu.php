@@ -29,15 +29,18 @@
 <body>
     <!-- Top and navbar -->
     <?php
-      include './components/navbar.php'
+    include './components/navbar.php'
     ?>
 
     <!-- Header Start -->
-    <?php
+    <!-- <div class="jumbotron jumbotron-fluid page-header" style="margin-bottom: 90px;"> -->
+        <!-- <img src="img/menu/menu-header.jpg" alt="menu-header" class="page-header" /> -->
+        <?php
         $title = "Menú";
         $subtitle = "Menú";
         include './components/header.php'
-    ?>
+        ?>
+    <!-- </div> -->
 
 
     <!-- Portfolio Start -->
@@ -51,7 +54,7 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <ul class="list-inline mb-4 pb-2" id="portfolio-flters">
-                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">All</li>
+                        <li class="btn btn-sm btn-outline-primary m-1 active" data-filter="*">All</li>
                         <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Cone</li>
                         <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Vanilla</li>
                         <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Chocolate</li>
