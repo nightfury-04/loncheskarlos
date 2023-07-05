@@ -33,14 +33,12 @@
     ?>
 
     <!-- Header Start -->
-    <!-- <div class="jumbotron jumbotron-fluid page-header" style="margin-bottom: 90px;"> -->
-        <!-- <img src="img/menu/menu-header.jpg" alt="menu-header" class="page-header" /> -->
-        <?php
-        $title = "Menú";
-        $subtitle = "Menú";
-        include './components/header.php'
-        ?>
-    <!-- </div> -->
+    <?php
+    $headerPage = "header-menu";
+    $title = "Menú";
+    $subtitle = "Menú";
+    include './components/header.php'
+    ?>
 
 
     <!-- Portfolio Start -->
