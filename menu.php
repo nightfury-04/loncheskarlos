@@ -52,10 +52,11 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <ul class="list-inline mb-4 pb-2" id="portfolio-flters">
-                        <li class="btn btn-sm btn-outline-primary m-1 active" data-filter="*">All</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Cone</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Vanilla</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Chocolate</li>
+                        <li class="btn btn-sm btn-outline-primary m-1 active" data-filter="*">Todo</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Lonches</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Otros</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Bebidas</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".fourth">Postres</li>
                     </ul>
                 </div>
             </div>
