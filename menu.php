@@ -46,14 +46,14 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-5">
-                    <h1 class="section-title position-relative text-center mb-5">Delicious Ice Cream Made From Our Very Own Organic Milk</h1>
+                    <h1 class="section-title position-relative text-center mb-5">Los lonches con más tradición tapatía</h1>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 text-center">
                     <ul class="list-inline mb-4 pb-2" id="portfolio-flters">
                         <li class="btn btn-sm btn-outline-primary m-1 active" data-filter="*">Todo</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Lonches</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".lunch">Lonches</li>
                         <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Otros</li>
                         <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Bebidas</li>
                         <li class="btn btn-sm btn-outline-primary m-1" data-filter=".fourth">Postres</li>
@@ -61,12 +61,35 @@
                 </div>
             </div>
             <div class="row m-0 portfolio-container">
-                <div class="col-lg-4 col-md-6 p-0 portfolio-item first">
+                <div class="col-lg-4 col-md-6 p-0 portfolio-item lunch">
                     <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
-                        <a class="portfolio-btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                            <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
-                        </a>
+                        <h3 class="menu">Especiales</h3>
+                        <ol>
+                            <p> <b class="menu">Lonches de milanesa de pollo</b>
+                                <br>Lonche dorado con milanesa de pollo, aguacate, jitomate, costra de queso, chipotle.
+                            </p>
+                            <p>
+                                <b class="menu">Tradicional súper especial</b>
+                                <br> Lonche tradicional dorado con pierna y lomo, carne molida de res, queso, jitomate, cebolla asada, mostaza y crema extra.
+                            </p>
+                            <p>
+                                <b class="menu">Hamburguesa súper</b>
+                                <br> Arrachera, queso, tocino, jitomate, cebolla, lechuga, mostaza, catsup, crema.
+                            </p>
+                            <p>
+                                <b class="menu">Lonche de camarón</b>
+                                <br> Elige entre: camarón Karlo's o camarón a la diabla.
+                            </p>
+                            <p>
+                                <b class="menu">Hamburguesa de camarón con queso</b>
+                                <br> Elige entre: camarón Karlo's o camarón a la diabla.
+                            </p>
+                            <p>
+                                <b class="menu">Hot dog de camarón</b>
+                                <br> Elige entre: camarón Karlo's o camarón a la diabla.
+                            </p>
+                        </ol>
+
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 p-0 portfolio-item second">
@@ -85,7 +108,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 p-0 portfolio-item first">
+                <div class="col-lg-4 col-md-6 p-0 portfolio-item lunch">
                     <div class="position-relative overflow-hidden">
                         <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
                         <a class="portfolio-btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">

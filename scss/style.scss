@@ -322,15 +322,14 @@ h6,
     background: $primary !important;
 }
 
-.portfolio-item::after {
-    position: absolute;
+.portfolio-item {
     content: "";
-    top: 30px;
-    right: 30px;
-    bottom: 30px;
-    left: 30px;
-    border: 2px solid $light;
+    border: 2px solid $secondary;
     z-index: 1;
+}
+
+.menu {
+    color: #008F3E;
 }
 
 .portfolio-item .portfolio-btn {
