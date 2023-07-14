@@ -54,9 +54,9 @@
                     <ul class="list-inline mb-4 pb-2" id="portfolio-flters">
                         <li class="btn btn-sm btn-outline-primary m-1 active" data-filter="*">Todo</li>
                         <li class="btn btn-sm btn-outline-primary m-1" data-filter=".lunch">Lonches</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Otros</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Bebidas</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".fourth">Postres</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".other">Otros</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".drink">Bebidas</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".dessert">Postres</li>
                     </ul>
                 </div>
             </div>
@@ -92,44 +92,109 @@
 
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 p-0 portfolio-item second">
+                <div class="col-lg-4 col-md-6 p-0 portfolio-item lunch">
                     <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
-                        <a class="portfolio-btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">
-                            <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 p-0 portfolio-item third">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
-                        <a class="portfolio-btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                            <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
-                        </a>
+                        <h3 class="menu">Los Legendarios</h3>
+                        <ol>
+                            <p> <b class="menu">Lonche tradicional</b>
+                                <br>Combinación de pierna y lomo, jitomate, cebolla, crema y mostaza.
+                            </p>
+                            <p>
+                                <b class="menu">Lonche de pierna</b>
+                                <br> Pierna, jitomate, lechuga, mayonesa y mostaza.
+                            </p>
+                            <p>
+                                <b class="menu">Lonche de panela</b>
+                                <br> Panela, jitomate, cebolla, lechuga, mayonesa y mostaza.
+                            </p>
+                        </ol>
+
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 p-0 portfolio-item lunch">
                     <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
-                        <a class="portfolio-btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                            <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
-                        </a>
+                        <h3 class="menu">Favoritos</h3>
+                        <ol>
+                            <p> <b class="menu">Lonche de cochinita</b>
+                                <br> Lonche doradito con cochinita al estilo Karlo's, jitomate, mayonesa, mostaza y una deliciosa ensalada de cebolla morada, zanahoria, pepina y un pequeño toque de habanero.
+                            </p>
+                            <p>
+                                <b class="menu">Lonche de pierna</b>
+                                <br> Pierna, jitomate, lechuga, mayonesa y mostaza.
+                            </p>
+                            <p>
+                                <b class="menu">Lonche de panela</b>
+                                <br> Panela, jitomate, cebolla, lechuga, mayonesa y mostaza.
+                            </p>
+                        </ol>
+
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 p-0 portfolio-item second">
+            </div>
+            <div class="row m-0 portfolio-container">
+                <div class="col-lg-4 col-md-6 p-0 portfolio-item other">
                     <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
-                        <a class="portfolio-btn" href="img/portfolio-5.jpg" data-lightbox="portfolio">
-                            <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
-                        </a>
+                        <h3 class="menu">¡No todo es lonche!</h3>
+                        <ol>
+                            <p> <b class="menu">Hamburguesa</b>
+                                <br> Con queso.
+                            </p>
+                            <p>
+                                <b class="menu">Hot dog</b>
+                                <br> Con tocino.
+                            </p>
+                        </ol>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 p-0 portfolio-item third">
+                <div class="col-lg-4 col-md-6 p-0 portfolio-item dessert">
                     <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
-                        <a class="portfolio-btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">
-                            <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
-                        </a>
+                        <h3 class="menu">Postres</h3>
+                        <ol>
+                            <p> <b class="menu">Flan</b>
+                            </p>
+                            <p>
+                                <b class="menu">Jericalla</b>
+                            </p>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-0 portfolio-container">
+                <div class="col-lg-4 col-md-6 p-0 portfolio-item drink">
+                    <h3 class="menu">Bebidas</h3>
+                    <div class="position-relative overflow-hidden">
+
+                        <ol>
+                            <p> <b class="menu">Cervezas $48</b>
+                                <br> Victoria, Corona y Corona Light
+                                <br>Ultra, Modelo Especial y Negra Modelo
+                            </p>
+                            <p>
+                                <b class="menu">Cerveza Artesanal $75</b>
+                                <br> Cerveceria de Colima
+                                Colimita, Piedra Lisa Y Cayaco Light
+                            </p>
+                        </ol>
+                    </div>
+                    <div class="col-lg-4 col-md-6 p-0 portfolio-item drink">
+                        <div class="position-relative overflow-hidden">
+                            <ol>
+                                <p> <b class="menu">Chaparrita $25</b></p>
+                                <p>
+                                    <b class="menu">Agua fresca embotellada</b>
+                                    <br> Horchata, Horchata Fresa y Jamaica.
+                                </p>
+                                <p>
+                                    <b class="menu">Boing</b>
+                                    <br> Guayaba, Fresa, Uva, Mango.
+                                </p>
+                                <p>
+                                    <b class="menu">Refresco</b>
+                                    <br> Coca-Cola, Coca-Cola Light, Sprite, Sprite Zero, Sidral, Agua Mineral.
+                                </p>
+                                <p> <b class="menu">Agua natural</b></p>
+                            </ol>
+                        </div>
                     </div>
                 </div>
             </div>
