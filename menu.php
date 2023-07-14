@@ -131,7 +131,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row m-0 portfolio-container">
+            <div class="row justify-content-between m-0 portfolio-container">
                 <div class="col-lg-4 col-md-6 p-0 portfolio-item other">
                     <div class="position-relative overflow-hidden">
                         <h3 class="menu">¡No todo es lonche!</h3>
@@ -176,25 +176,25 @@
                             </p>
                         </ol>
                     </div>
-                    <div class="col-lg-4 col-md-6 p-0 portfolio-item drink">
-                        <div class="position-relative overflow-hidden">
-                            <ol>
-                                <p> <b class="menu">Chaparrita $25</b></p>
-                                <p>
-                                    <b class="menu">Agua fresca embotellada</b>
-                                    <br> Horchata, Horchata Fresa y Jamaica.
-                                </p>
-                                <p>
-                                    <b class="menu">Boing</b>
-                                    <br> Guayaba, Fresa, Uva, Mango.
-                                </p>
-                                <p>
-                                    <b class="menu">Refresco</b>
-                                    <br> Coca-Cola, Coca-Cola Light, Sprite, Sprite Zero, Sidral, Agua Mineral.
-                                </p>
-                                <p> <b class="menu">Agua natural</b></p>
-                            </ol>
-                        </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-0 portfolio-item drink">
+                    <div class="position-relative overflow-hidden">
+                        <ol>
+                            <p> <b class="menu">Chaparrita $25</b></p>
+                            <p>
+                                <b class="menu">Agua fresca embotellada</b>
+                                <br> Horchata, Horchata Fresa y Jamaica.
+                            </p>
+                            <p>
+                                <b class="menu">Boing</b>
+                                <br> Guayaba, Fresa, Uva, Mango.
+                            </p>
+                            <p>
+                                <b class="menu">Refresco</b>
+                                <br> Coca-Cola, Coca-Cola Light, Sprite, Sprite Zero, Sidral, Agua Mineral.
+                            </p>
+                            <p> <b class="menu">Agua natural</b></p>
+                        </ol>
                     </div>
                 </div>
             </div>
