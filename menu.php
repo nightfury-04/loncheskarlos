@@ -60,7 +60,47 @@
                     </ul>
                 </div>
             </div>
-            <div class="row m-0 portfolio-container">
+            <div class="row row-cols-1 row-cols-md-3 g-2">
+                <div class="col" style="padding-bottom: 20px;">
+                    <div class="card">
+                        <img src="img/portfolio-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="padding-bottom: 20px;">
+                    <div class="card">
+                        <img src="img/portfolio-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="padding-bottom: 20px;">
+                    <div class="card">
+                        <img src="img/portfolio-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="padding-bottom: 20px;">
+                    <div class="card">
+                        <img src="img/portfolio-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="row m-0 portfolio-container">
                 <div class="col-lg-4 col-md-6 p-0 portfolio-item lunch">
                     <div class="position-relative overflow-hidden">
                         <h3 class="menu">Especiales</h3>
@@ -197,7 +237,7 @@
                         </ol>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
     <!-- Portfolio End -->

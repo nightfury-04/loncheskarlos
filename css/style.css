@@ -12102,7 +12102,7 @@ h6,
   z-index: 2;
 }
 
-/* line 351, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 349, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .portfolio-item:hover .portfolio-btn {
   opacity: 1;
   width: calc(100% - 60px);
@@ -12111,7 +12111,7 @@ h6,
   left: 30px;
 }
 
-/* line 359, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 357, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .team-item .team-img {
   position: relative;
   width: 200px;
@@ -12125,7 +12125,7 @@ h6,
   z-index: 1;
 }
 
-/* line 372, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 370, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .team-item .team-img::after {
   position: absolute;
   content: "";
@@ -12139,7 +12139,7 @@ h6,
   z-index: 2;
 }
 
-/* line 385, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 383, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .team-item:hover .team-img::after {
   top: -3px;
   right: -3px;
@@ -12147,17 +12147,17 @@ h6,
   left: -3px;
 }
 
-/* line 392, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 390, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .team-item .team-img img {
   transition: .5s;
 }
 
-/* line 396, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 394, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .team-item:hover .team-img img {
   transform: scale(1.2);
 }
 
-/* line 400, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 398, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .team .team-social {
   position: absolute;
   width: 75px;
@@ -12168,25 +12168,25 @@ h6,
   transition: .5s;
 }
 
-/* line 410, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 408, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .team:hover .team-social {
   left: 0;
 }
 
-/* line 414, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 412, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .testimonial-carousel .owl-item img {
   width: 80px;
   height: 80px;
   border-radius: 80px;
 }
 
-/* line 420, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 418, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .testimonial-carousel .owl-dots {
   margin-top: 25px;
   text-align: center;
 }
 
-/* line 425, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 423, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .testimonial-carousel .owl-dot {
   position: relative;
   display: inline-block;
@@ -12197,7 +12197,7 @@ h6,
   background: #009A44;
 }
 
-/* line 435, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 433, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .testimonial-carousel .owl-dot::after {
   position: absolute;
   content: "";
@@ -12209,12 +12209,12 @@ h6,
   border-radius: 20px;
 }
 
-/* line 446, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 444, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .testimonial-carousel .owl-dot.active {
   background: #473729;
 }
 
-/* line 450, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 448, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .contact-form .help-block ul {
   margin: 0;
   padding: 0;
@@ -12222,7 +12222,7 @@ h6,
 }
 
 @media (max-width: 575.98px) {
-  /* line 457, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+  /* line 455, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
   .footer .border-right {
     border-right: none !important;
   }
