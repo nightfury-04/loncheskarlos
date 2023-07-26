@@ -68,6 +68,31 @@
     </div>
     <!-- Portfolio End -->
 
+    <div class="circle-extra">
+        <h2 style="color: white;">$25</h2>
+    </div>
+    <div class="extra container text-center">
+        <div class="row">
+            <div class="col-12">
+                <h2 style="color: white;">Extras</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h3 style="color: white;">Aguacate</h3>
+            </div>
+            <div class="col">
+                <h3 style="color: white;">Panela</h3>
+            </div>
+            <div class="col">
+                <h3 style="color: white;">Tocino</h3>
+            </div>
+            <div class="col">
+                <h3 style="color: white;">Queso</h3>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Footer Start -->
     <div class="container-fluid footer bg-light py-5" style="margin-top: 90px;">

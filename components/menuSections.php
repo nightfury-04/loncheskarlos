@@ -10,13 +10,14 @@ echo <<< EOT
                     <div class="circle bottom-right"></div>
 
                     <h1 class="lunch-title">Lonches</h1>
+
                     <div class="col-lg-4 col-md-6 p-0">
                         <div class="position-relative overflow-hidden">
                             <div class="row justify-content-between">
-                                <div class="col-4">
+                                <div class="col-5">
                                 <h3 class="menu">Especiales</h3>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-3">
                                 <h2>$90</h2>
                                 </div>
                             </div>
@@ -52,9 +53,17 @@ echo <<< EOT
 
                         </div>
                     </div>
+
                     <div class="col-lg-4 col-md-6 p-0">
                         <div class="position-relative overflow-hidden">
-                            <h3 class="menu">Los Legendarios</h3>
+                            <div class="row justify-content-between">
+                                    <div class="col-5">
+                                        <h3 class="menu">Los Legendarios</h3>
+                                    </div>
+                                    <div class="col-3">
+                                        <h2>$65</h2>
+                                    </div>
+                            </div>
                             <div class="img-container">
                                 <img src="./img/menu/lonche-legendario.jpg" alt="" class="img-fluid pt-3 pb-3 w-50" />
                             </div>
@@ -74,9 +83,19 @@ echo <<< EOT
 
                         </div>
                     </div>
+
                     <div class="col-lg-4 col-md-6 p-0">
                         <div class="position-relative overflow-hidden">
-                            <h3 class="menu">Favoritos</h3>
+
+                            <div class="row justify-content-between">
+                                <div class="col-5">
+                                    <h3 class="menu">Favoritos</h3>
+                                </div>
+                                <div class="col-3">
+                                    <h2>$75</h2>
+                                </div>
+                            </div>
+
                             <div class="img-container">
                                 <img src="./img/menu/lonche-favorito.jpg" alt="" class="img-fluid pt-3 pb-3 w-50" />
                             </div>
@@ -118,7 +137,16 @@ echo <<< EOT
                 <h1 class="other-title">Otros</h1>
                 <div class="col-lg-4 col-md-6 p-0">
                     <div class="position-relative overflow-hidden">
-                        <h3 class="menu">¡No todo es lonche!</h3>
+
+                        <div class="row justify-content-between">
+                            <div class="col-5">
+                                <h3 class="menu">¡No todo es lonche!</h3>
+                            </div>
+                            <div class="col-3">
+                                <h2>$55</h2>
+                            </div>
+                        </div>
+
                         <div class="img-container">
                             <img src="./img/menu/hot-dog.jpg" alt="" class="img-fluid pt-3 pb-3 w-50" />
                         </div>
@@ -146,7 +174,15 @@ echo <<< EOT
                 <div class="circle bottom-left"></div>
                 <div class="circle bottom-right"></div>
 
-                <h1 class="other-title">Postres</h1>
+                <div class="row justify-content-between">
+                    <div class="col-5">
+                        <h1 class="other-title">Postres</h1>
+                    </div>
+                    <div class="col-3">
+                        <h2>$55</h2>
+                    </div>
+                </div>
+               
                 <div class="img-container">
                     <img src="./img/menu/postre.jpg" alt="" class="img-fluid pt-3 pb-3 w-50" />
                 </div>
@@ -177,6 +213,7 @@ echo <<< EOT
                 <div class="img-container">
                     <img src="./img/menu/bebida-cerveza.jpg" alt="" class="img-fluid pt-3 pb-3 w-50" />
                 </div>
+
                 <div class="col-lg-4 col-md-6 p-0">
                     <div class="position-relative overflow-hidden">
 
@@ -193,6 +230,7 @@ echo <<< EOT
                         </ol>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6 p-0">
                     <div class="img-container">
                         <img src="./img/menu/bebida-fresca.jpg" alt="" class="img-fluid pt-3 pb-3 w-50" />
@@ -200,19 +238,27 @@ echo <<< EOT
                     <div class="position-relative overflow-hidden">
                         <ol>
                             <p> <b class="menu">Chaparrita $25</b></p>
-                            <p>
-                                <b class="menu">Agua fresca embotellada</b>
-                                <br> Horchata, Horchata Fresa y Jamaica.
-                            </p>
-                            <p>
-                                <b class="menu">Boing</b>
-                                <br> Guayaba, Fresa, Uva, Mango.
-                            </p>
-                            <p>
-                                <b class="menu">Refresco</b>
-                                <br> Coca-Cola, Coca-Cola Light, Sprite, Sprite Zero, Sidral, Agua Mineral.
-                            </p>
-                            <p> <b class="menu">Agua natural</b></p>
+
+                            <div class="row justify-content-between">
+                                <div class="col-5">
+                                    <p>
+                                        <b class="menu">Agua fresca embotellada</b>
+                                        <br> Horchata, Horchata Fresa y Jamaica.
+                                    </p>
+                                    <p>
+                                        <b class="menu">Boing</b>
+                                        <br> Guayaba, Fresa, Uva, Mango.
+                                    </p>
+                                    <p>
+                                        <b class="menu">Refresco</b>
+                                        <br> Coca-Cola, Coca-Cola Light, Sprite, Sprite Zero, Sidral, Agua Mineral.
+                                    </p>
+                                    <p> <b class="menu">Agua natural</b></p>
+                                </div>
+                                <div class="col-3">
+                                    <h2>$35</h2>
+                                </div>
+                            </div>
                         </ol>
                     </div>
                 </div>

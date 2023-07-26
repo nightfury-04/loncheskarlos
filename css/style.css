@@ -12136,6 +12136,31 @@ h6,
 }
 
 /* line 376, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+.extra {
+  position: absolute;
+  bottom: auto;
+  right: 0;
+  left: 0;
+  background-color: #009A44;
+  margin: 0;
+  width: 100%;
+}
+
+/* line 386, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+.circle-extra {
+  background: green;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px auto;
+  padding: 3%;
+}
+
+/* line 399, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .portfolio-item .portfolio-btn {
   position: absolute;
   width: 0;
@@ -12150,7 +12175,7 @@ h6,
   z-index: 2;
 }
 
-/* line 390, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 413, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .portfolio-item:hover .portfolio-btn {
   opacity: 1;
   width: calc(100% - 60px);
@@ -12159,7 +12184,7 @@ h6,
   left: 30px;
 }
 
-/* line 398, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 421, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .team-item .team-img {
   position: relative;
   width: 200px;
@@ -12173,7 +12198,7 @@ h6,
   z-index: 1;
 }
 
-/* line 411, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 434, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .team-item .team-img::after {
   position: absolute;
   content: "";
@@ -12187,7 +12212,7 @@ h6,
   z-index: 2;
 }
 
-/* line 424, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 447, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .team-item:hover .team-img::after {
   top: -3px;
   right: -3px;
@@ -12195,17 +12220,17 @@ h6,
   left: -3px;
 }
 
-/* line 431, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 454, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .team-item .team-img img {
   transition: .5s;
 }
 
-/* line 435, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 458, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .team-item:hover .team-img img {
   transform: scale(1.2);
 }
 
-/* line 439, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 462, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .team .team-social {
   position: absolute;
   width: 75px;
@@ -12216,25 +12241,25 @@ h6,
   transition: .5s;
 }
 
-/* line 449, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 472, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .team:hover .team-social {
   left: 0;
 }
 
-/* line 453, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 476, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .testimonial-carousel .owl-item img {
   width: 80px;
   height: 80px;
   border-radius: 80px;
 }
 
-/* line 459, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 482, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .testimonial-carousel .owl-dots {
   margin-top: 25px;
   text-align: center;
 }
 
-/* line 464, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 487, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .testimonial-carousel .owl-dot {
   position: relative;
   display: inline-block;
@@ -12245,7 +12270,7 @@ h6,
   background: #009A44;
 }
 
-/* line 474, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 497, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .testimonial-carousel .owl-dot::after {
   position: absolute;
   content: "";
@@ -12257,12 +12282,12 @@ h6,
   border-radius: 20px;
 }
 
-/* line 485, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 508, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .testimonial-carousel .owl-dot.active {
   background: #473729;
 }
 
-/* line 489, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+/* line 512, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
 .contact-form .help-block ul {
   margin: 0;
   padding: 0;
@@ -12270,7 +12295,7 @@ h6,
 }
 
 @media (max-width: 575.98px) {
-  /* line 496, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
+  /* line 519, ../../../../../xampp/htdocs/loncheskarlos/scss/style.scss */
   .footer .border-right {
     border-right: none !important;
   }
