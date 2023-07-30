@@ -39,14 +39,11 @@
           <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0"></div>
           <div class="col-md-6 text-center text-lg-right">
             <div class="d-inline-flex align-items-center">
-              <a class="text-white px-3" href="">
+              <a class="text-white px-3" href="https://www.facebook.com/loncheskarlosgdl" target="_blank">
                 <i class="fab fa-facebook-f"></i>
               </a>
-              <a class="text-white px-3" href="">
+              <a class="text-white px-3" href="https://www.instagram.com/loncheskarlos" target="_blank">
                 <i class="fab fa-instagram"></i>
-              </a>
-              <a class="text-white pl-3" href="">
-                <i class="fab fa-youtube"></i>
               </a>
             </div>
           </div>

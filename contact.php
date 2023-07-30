@@ -55,11 +55,11 @@
                         <div class="row">
                             <div class="col-12 col-lg-6 text-center mb-3">
                                 <i class="fab fa-facebook fa-5x mb-2 text-primary"></i>
-                                <h5 class="font-weight-bold m-0">Lonches Karlo's</h5>
+                                <a href="https://www.facebook.com/loncheskarlosgdl" target="_blank" class="d-block font-weight-bold m-0">Lonches Karlo's</a>
                             </div>
                             <div class="col-12 col-lg-6 text-center">
                                 <i class="fab fa-instagram fa-5x mb-2 text-primary"></i>
-                                <h5 class="font-weight-bold m-0">@loncheskarlos</h5>
+                                <a href="https://www.instagram.com/loncheskarlos" target="_blank" class="d-block font-weight-bold m-0">@loncheskarlos</a>
                             </div>
                         </div>
                     </div>
