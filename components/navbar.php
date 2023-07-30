@@ -33,6 +33,19 @@
   </head>
 
   <body>
+    <?php
+      if(!isset($active)) {
+        $active = 'home';
+      }
+
+      function isActive($val) {
+        global $active;
+
+        return $val === $active ? "active" : "";
+      }
+
+    ?>
+
     <div class="container-fluid bg-primary py-3 d-none d-md-block">
       <div class="container">
         <div class="row">
@@ -75,17 +88,16 @@
             id="navbarCollapse"
           >
             <div class="navbar-nav ml-auto py-0">
-              <a href="index.php" class="nav-item nav-link active">Inicio</a>
-              <a href="about.php" class="nav-item nav-link">Nosotros</a>
-              <a href="branches.php" class="nav-item nav-link">Sucursales</a>
+              <a href="index.php" class="nav-item nav-link <?php echo isActive("home") ?>">Inicio</a>
+              <a href="about.php" class="nav-item nav-link <?php echo isActive("about") ?>">Nosotros</a>
+              <a href="branches.php" class="nav-item nav-link <?php echo isActive("branches") ?>">Sucursales</a>
             </div>
             <a href="index.php" class="navbar-brand mx-5 d-none d-lg-block">
               <h1 class="m-0 display-4 text-primary"> <em>Lonches</em> <span style="color: #473729; font-family: 'Galada', cursive"> karlo's </span></h1>
             </a>
             <div class="navbar-nav mr-auto py-0">
-              <a href="" class="nav-item nav-link"></a>
-              <a href="menu.php" class="nav-item nav-link">Menú</a>
-              <a href="contact.php" class="nav-item nav-link">Contacto</a>
+              <a href="menu.php" class="nav-item nav-link <?php echo isActive("menu") ?>">Menú</a>
+              <a href="contact.php" class="nav-item nav-link <?php echo isActive("contact") ?>">Contacto</a>
             </div>
           </div>
         </nav>

@@ -29,7 +29,8 @@
 <body>
     <!-- Top and navbar -->
     <?php
-      include './components/navbar.php'
+        $active = "branches";
+        include './components/navbar.php'
     ?>
 
 

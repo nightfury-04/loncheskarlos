@@ -29,7 +29,8 @@
 <body>
     <!-- Top and navbar -->
     <?php
-    include './components/navbar.php'
+        $active = "menu";
+        include './components/navbar.php'
     ?>
 
     <!-- Header Start -->

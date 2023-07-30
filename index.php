@@ -35,7 +35,8 @@
   <body>
     <!-- Top and navbar -->
     <?php
-      include './components/navbar.php'
+        $active = "home";
+        include './components/navbar.php'
     ?>
 
     <!-- Carousel Start -->

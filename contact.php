@@ -29,7 +29,8 @@
 <body>
     <!-- Top and navbar -->
     <?php
-      include './components/navbar.php'
+        $active = "contact";
+        include './components/navbar.php'
     ?>
 
 
