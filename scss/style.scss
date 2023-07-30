@@ -106,7 +106,7 @@ h6,
     }
 
     #header-carousel,
-    .page-header {
+    .page-header, .header-menu  {
         margin-top: -45px;
     }
 }
@@ -124,6 +124,11 @@ h6,
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/header.jpg), no-repeat center center;
     background-size: cover;
 }
+
+.header-menu {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/menu/menu-header.jpg), no-repeat center center;
+    background-size: cover;
+  }
 
 .section-title::before {
     position: absolute;
@@ -317,23 +322,81 @@ h6,
     background: $primary !important;
 }
 
-.portfolio-item::after {
+.portfolio-item {
+    border: 2px solid $secondary;
+    position: relative;
+}
+
+.menu {
+    color: #008F3E;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-container {
+    overflow: hidden;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border: 2px solid $secondary;
+    border-radius: 50%;
+    background-color: #F3F6FF;
     position: absolute;
-    content: "";
-    top: 30px;
-    right: 30px;
-    bottom: 30px;
-    left: 30px;
-    border: 2px solid $light;
-    z-index: 1;
+}
+
+.bottom-right {
+    right: 0;
+    bottom: 0;
+    transform: translate(50%, 50%);
+}
+
+.bottom-left {
+    left: 0;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+}
+
+.top-right {
+    right: 0;
+    top: 0;
+    transform: translate(50%, -50%);
+}
+
+.top-left {
+    left: 0;
+    top: 0;
+    transform: translate(-50%, -50%);
+}
+
+.extra {
+    background-color: $primary;
+    margin: 0;
+    width: 100%;
+    padding-top: 24px;
+}
+
+.circle-extra {
+    background: $primary;
+    border-radius: 50%;
+	height: 100px;
+    width: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    margin: 0px auto;
+    margin-bottom: -40px;
 }
 
 .portfolio-item .portfolio-btn {
     position: absolute;
     width: 0;
     height: 0;
-    top: 50%;
-    left: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -447,6 +510,14 @@ h6,
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
 }
 
 @media (max-width: 575.98px) {
