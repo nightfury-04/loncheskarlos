@@ -37,9 +37,17 @@
     $headerPage = "header-menu";
     $title = "Menú";
     $subtitle = "Menú";
+    $marginBottom = 0;
     include './components/header.php'
     ?>
 
+    <div class="extra container text-center col-12 py-5">
+        <div class="row">
+            <div class="col-12">
+                <h2 style="color: white;">!NUESTRA SALSA KARLO'S ES ILIMITADA CON CADA PLATILLO QUE SE CONSUMA EN EL COMEDOR¡</h2>
+            </div>
+        </div>
+    </div>
 
     <!-- Portfolio Start -->
     <div class="container-fluid py-5 px-0">
@@ -71,7 +79,7 @@
     <div class="circle-extra">
         <h2 style="color: white;">$25</h2>
     </div>
-    <div class="extra container text-center">
+    <div class="extra container text-center col-12 py-2">
         <div class="row">
             <div class="col-12">
                 <h2 style="color: white;">Extras</h2>
@@ -95,7 +103,7 @@
 
 
     <!-- Footer Start -->
-    <div class="container-fluid footer bg-light py-5" style="margin-top: 90px;">
+    <div class="container-fluid footer bg-light py-5" style="">
         <div class="container text-center py-5">
             <div class="row">
                 <div class="col-12 mb-4">

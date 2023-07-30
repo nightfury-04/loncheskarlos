@@ -2,7 +2,7 @@
 
 echo <<< EOT
         <div class="row m-0 mb-4 portfolio-container">
-            <div class="portfolio-item lunch p-3">
+            <div class="portfolio-item lunch p-5">
                 <div class="inner">
                     <div class="circle top-left"></div>
                     <div class="circle top-right"></div>
@@ -11,19 +11,19 @@ echo <<< EOT
 
                     <h1 class="lunch-title">Lonches</h1>
 
-                    <div class="col-lg-4 col-md-6 p-0">
+                    <div class="col-12 p-0">
                         <div class="position-relative overflow-hidden">
                             <div class="row justify-content-between">
-                                <div class="col-5">
+                                <div class="col-auto">
                                 <h3 class="menu">Especiales</h3>
                                 </div>
-                                <div class="col-3">
+                                <div class="col-auto">
                                 <h2>$90</h2>
                                 </div>
                             </div>
                             
                             <div class="img-container">
-                                <img src="./img/menu/lonche-especial.jpg" alt="" class="img-fluid pt-3 pb-3 w-50" />
+                                <img src="./img/menu/lonche-especial.jpg" alt="" class="img-fluid pt-3 pb-3" style="height:380px" />
                             </div>
                             <ol>
                                 <p> <b class="menu">Lonches de milanesa de pollo</b>
@@ -54,18 +54,18 @@ echo <<< EOT
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 p-0">
+                    <div class="col-12 p-0 mt-5">
                         <div class="position-relative overflow-hidden">
                             <div class="row justify-content-between">
-                                    <div class="col-5">
+                                    <div class="col-auto">
                                         <h3 class="menu">Los Legendarios</h3>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-auto">
                                         <h2>$65</h2>
                                     </div>
                             </div>
                             <div class="img-container">
-                                <img src="./img/menu/lonche-legendario.jpg" alt="" class="img-fluid pt-3 pb-3 w-50" />
+                                <img src="./img/menu/lonche-legendario.jpg" alt="" class="img-fluid pt-3 pb-3" style="height:380px" />
                             </div>
                             <ol>
                                 <p> <b class="menu">Lonche tradicional</b>
@@ -84,20 +84,20 @@ echo <<< EOT
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 p-0">
+                    <div class="col-12 p-0 mt-5">
                         <div class="position-relative overflow-hidden">
 
                             <div class="row justify-content-between">
-                                <div class="col-5">
+                                <div class="col-auto">
                                     <h3 class="menu">Favoritos</h3>
                                 </div>
-                                <div class="col-3">
+                                <div class="col-auto">
                                     <h2>$75</h2>
                                 </div>
                             </div>
 
                             <div class="img-container">
-                                <img src="./img/menu/lonche-favorito.jpg" alt="" class="img-fluid pt-3 pb-3 w-50" />
+                                <img src="./img/menu/lonche-favorito.jpg" alt="" class="img-fluid pt-3 pb-3" style="height:380px" />
                             </div>
                             <ol>
                                 <p> <b class="menu">Lonche de cochinita</b>
@@ -120,14 +120,13 @@ echo <<< EOT
                         </div>
                     </div>
                 </div>
-                
             </div>
         </div>
     EOT;
 
 echo <<< EOT
     <div class="row m-0 mb-4 portfolio-container">
-        <div class="portfolio-item other p-3 w-100">
+        <div class="portfolio-item other p-5 w-100">
             <div class="inner">
                 <div class="circle top-left"></div>
                 <div class="circle top-right"></div>
@@ -135,20 +134,20 @@ echo <<< EOT
                 <div class="circle bottom-right"></div>
 
                 <h1 class="other-title">Otros</h1>
-                <div class="col-lg-4 col-md-6 p-0">
+                <div class="col-12 p-0">
                     <div class="position-relative overflow-hidden">
 
                         <div class="row justify-content-between">
-                            <div class="col-5">
+                            <div class="col-auto">
                                 <h3 class="menu">¡No todo es lonche!</h3>
                             </div>
-                            <div class="col-3">
+                            <div class="col-auto">
                                 <h2>$55</h2>
                             </div>
                         </div>
 
                         <div class="img-container">
-                            <img src="./img/menu/hot-dog.jpg" alt="" class="img-fluid pt-3 pb-3 w-50" />
+                            <img src="./img/menu/hot-dog.jpg" alt="" class="img-fluid pt-3 pb-3" style="height:380px" />
                         </div>
                         <ol>
                             <p> <b class="menu">Hamburguesa</b>
@@ -167,7 +166,7 @@ echo <<< EOT
     </div>
 
     <div class="row m-0 mb-4 portfolio-container">
-        <div class="portfolio-item dessert p-3 w-100">
+        <div class="portfolio-item dessert p-5 w-100">
             <div class="inner">
                 <div class="circle top-left"></div>
                 <div class="circle top-right"></div>
@@ -175,18 +174,18 @@ echo <<< EOT
                 <div class="circle bottom-right"></div>
 
                 <div class="row justify-content-between">
-                    <div class="col-5">
+                    <div class="col-auto">
                         <h1 class="other-title">Postres</h1>
                     </div>
-                    <div class="col-3">
+                    <div class="col-auto">
                         <h2>$55</h2>
                     </div>
                 </div>
                
                 <div class="img-container">
-                    <img src="./img/menu/postre.jpg" alt="" class="img-fluid pt-3 pb-3 w-50" />
+                    <img src="./img/menu/postre.jpg" alt="" class="img-fluid pt-3 pb-3" style="height:380px" />
                 </div>
-                <div class="col-lg-4 col-md-6 p-0">
+                <div class="col-12 p-0">
                     <div class="position-relative overflow-hidden">
                         <ol>
                             <p> <b class="menu">Flan</b>
@@ -202,7 +201,7 @@ echo <<< EOT
     </div>
 
     <div class="row m-0 portfolio-container">
-        <div class="portfolio-item drink p-3 w-100">
+        <div class="portfolio-item drink p-5 w-100">
             <div class="inner">
                 <div class="circle top-left"></div>
                 <div class="circle top-right"></div>
@@ -211,10 +210,10 @@ echo <<< EOT
 
                 <h1 class="other-title">Bebidas</h1>
                 <div class="img-container">
-                    <img src="./img/menu/bebida-cerveza.jpg" alt="" class="img-fluid pt-3 pb-3 w-50" />
+                    <img src="./img/menu/bebida-cerveza.jpg" alt="" class="img-fluid pt-3 pb-3" style="height:380px" />
                 </div>
 
-                <div class="col-lg-4 col-md-6 p-0">
+                <div class="col-12 p-0">
                     <div class="position-relative overflow-hidden">
 
                         <ol>
@@ -231,16 +230,16 @@ echo <<< EOT
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 p-0">
+                <div class="col-12 p-0">
                     <div class="img-container">
-                        <img src="./img/menu/bebida-fresca.jpg" alt="" class="img-fluid pt-3 pb-3 w-50" />
+                        <img src="./img/menu/bebida-fresca.jpg" alt="" class="img-fluid pt-3 pb-3" style="height:380px" />
                     </div>
                     <div class="position-relative overflow-hidden">
                         <ol>
                             <p> <b class="menu">Chaparrita $25</b></p>
 
                             <div class="row justify-content-between">
-                                <div class="col-5">
+                                <div class="col-auto">
                                     <p>
                                         <b class="menu">Agua fresca embotellada</b>
                                         <br> Horchata, Horchata Fresa y Jamaica.
@@ -255,7 +254,7 @@ echo <<< EOT
                                     </p>
                                     <p> <b class="menu">Agua natural</b></p>
                                 </div>
-                                <div class="col-3">
+                                <div class="col-auto">
                                     <h2>$35</h2>
                                 </div>
                             </div>

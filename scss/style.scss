@@ -374,17 +374,14 @@ h6,
 }
 
 .extra {
-    position: absolute;
-    bottom: auto;
-    right: 0;
-    left: 0;
-    background-color: #009A44;
+    background-color: $primary;
     margin: 0;
     width: 100%;
+    padding-top: 24px;
 }
 
 .circle-extra {
-    background: green;
+    background: $primary;
     border-radius: 50%;
 	height: 100px;
     width: 100px;
@@ -393,7 +390,7 @@ h6,
 	align-items: center;
 	text-align: center;
     margin: 0px auto;
-    padding: 3%;
+    margin-bottom: -40px;
 }
 
 .portfolio-item .portfolio-btn {
@@ -513,6 +510,14 @@ h6,
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
 }
 
 @media (max-width: 575.98px) {
