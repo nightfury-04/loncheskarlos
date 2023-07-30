@@ -520,6 +520,10 @@ h6,
     position: relative;
 }
 
+.text-large {
+    font-size: 4rem;
+}
+
 @media (max-width: 575.98px) {
     .footer .border-right {
         border-right: none !important;
