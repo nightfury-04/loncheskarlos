@@ -87,13 +87,13 @@
             </div>
         </div>
         <div class="row">
-            <div class="col">
+            <div class="col" style="border-right: 2px solid #fff;">
                 <h3 style="color: white;">Aguacate</h3>
             </div>
-            <div class="col">
+            <div class="col" style="border-right: 2px solid #fff;">
                 <h3 style="color: white;">Panela</h3>
             </div>
-            <div class="col">
+            <div class="col" style="border-right: 2px solid #fff;">
                 <h3 style="color: white;">Tocino</h3>
             </div>
             <div class="col">
