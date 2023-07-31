@@ -188,11 +188,11 @@ echo <<< EOT
                 <div class="col-12 p-0">
                     <div class="position-relative overflow-hidden">
                         <ol>
-                            <p> <b class="menu">Flan</b>
-                            </p>
-                            <p>
+                            <h5> <b class="menu">Flan</b>
+                            </h5>
+                            <h5>
                                 <b class="menu">Jericalla</b>
-                            </p>
+                            </h5>
                         </ol>
                     </div>
                 </div>

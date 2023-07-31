@@ -45,7 +45,7 @@
     <div class="extra container text-center col-12 py-5">
         <div class="row">
             <div class="col-12">
-                <h2 style="color: white;">!NUESTRA SALSA KARLO'S ES ILIMITADA CON CADA PLATILLO QUE SE CONSUMA EN EL COMEDOR¡</h2>
+                <h2 style="color: white;">¡NUESTRA SALSA KARLO'S ES ILIMITADA CON CADA PLATILLO QUE SE CONSUMA EN EL COMEDOR!</h2>
             </div>
         </div>
     </div>
