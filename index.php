@@ -22,17 +22,20 @@
   <!-- Libraries Stylesheet -->
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
   <!-- Customized Bootstrap Stylesheet -->
   <link href="css/style.css" rel="stylesheet" />
 </head>
 
 <body>
-  <!-- Top and navbar -->
+  <!-- Top and navbar Start -->
   <?php
   include './components/navbar.php'
   ?>
+  <!-- Top and navbar End -->
 
+  <!-- Cover Start -->
   <div class="container-fluid p-0 mb-5 pb-5">
     <div id="header-carousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
@@ -52,6 +55,7 @@
       </div>
     </div>
   </div>
+  <!-- Cover Start -->
 
   <!-- About Start -->
   <div class="container-fluid py-5">
@@ -72,7 +76,7 @@
           <p style="text-align: justify;">
             Desde esas fechas es que se funda nuestra tradición en ofrecer los más deliciosos y prestigiosos Lonches Bañados de todo el Occidente, Contando como estandarte nuestros Lonches Tradicionales.
           </p>
-          <a href="" class="btn btn-secondary mt-2">Leer más</a>
+          <a href="about.php" class="btn btn-secondary mt-2">Leer más</a>
         </div>
         <div class="col-lg-6 col-12" style="min-height: 400px">
           <div class="position-relative h-100 rounded overflow-hidden">
@@ -163,7 +167,7 @@
     <div class="row m-0" style="background-color: #473729;">
       <div class="col-md-6 px-0" style="min-height: 500px">
         <div class="position-relative h-100">
-          <img class="position-absolute w-100 h-100" src="img/homePage/homePage-valores.jpg" style="object-fit: cover" />
+          <img class="position-absolute w-100 h-100" src="img/homePage/homePage-eventos.jpg" style="object-fit: cover" />
 
           </button>
         </div>
@@ -171,30 +175,17 @@
       <div class="col-md-6 py-5 py-md-0 px-0">
         <div class="h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
           <h3 class="font-weight-bold text-white mt-3 mb-4">
-            Nuestros Valores
+            ¿Organizas un evento y buscas opciones únicas?
           </h3>
 
-          <div class="row justify-content-between">
-            <div class="col-6">
-              <ul class="list-group list-group-flush text-white">
-                <li class="list-group-item">Responsabilidad</li>
-                <li class="list-group-item">Puntualidad</li>
-                <li class="list-group-item">Calidad</li>
-                <li class="list-group-item">Perseverancia</li>
-                <li class="list-group-item">Trabajo en equipo</li>
-                <li class="list-group-item">Honestidad</li>
-              </ul>
-            </div>
-            <div class="col-6">
-              <ul class="list-group list-group-flush text-white">
-                <li class="list-group-item">Respeto</li>
-                <li class="list-group-item">Gratitud</li>
-                <li class="list-group-item">Igualdad</li>
-                <li class="list-group-item">Lealtad</li>
-                <li class="list-group-item">Solidaridad</li>
-                <li class="list-group-item">Tolerancia</li>
-              </ul>
-            </div>
+          <div class="text-white">
+            <p>Lonches Karlo's te ofrece un catering personalizado que hará que tu celebración sea todo un éxito.</p>
+            <p>Comunicate al
+              <span class="material-symbols-outlined">
+                call
+              </span>
+              <b> 33 1151 7201</b>
+            </p>
           </div>
 
         </div>
@@ -203,7 +194,7 @@
   </div>
   <!-- Events End -->
 
-  <!-- Team Start -->
+  <!-- 
   <div class="container-fluid py-5">
     <div class="container py-5">
       <div class="row">
@@ -278,9 +269,9 @@
       </div>
     </div>
   </div>
-  <!-- Team End -->
+   -->
 
-  <!-- Testimonial Start -->
+  <!-- 
   <div class="container-fluid py-5">
     <div class="container py-5">
       <div class="row justify-content-center">
@@ -331,7 +322,7 @@
       </div>
     </div>
   </div>
-  <!-- Testimonial End -->
+   -->
 
   <!-- Footer Start -->
   <div class="container-fluid footer bg-light py-5" style="margin-top: 90px">
