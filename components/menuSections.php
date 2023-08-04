@@ -25,7 +25,7 @@ echo <<< EOT
                             <div class="img-container">
                                 <img src="./img/menu/lonche-especial.jpg" alt="" class="img-fluid pt-3 pb-3" style="height:380px" />
                             </div>
-                            <ol>
+                            <ol class="dishes">
                                 <p> <b class="menu">Lonches de milanesa de pollo</b>
                                     <br>Lonche dorado con milanesa de pollo, aguacate, jitomate, costra de queso, chipotle.
                                 </p>
@@ -67,7 +67,7 @@ echo <<< EOT
                             <div class="img-container">
                                 <img src="./img/menu/lonche-legendario.jpg" alt="" class="img-fluid pt-3 pb-3" style="height:380px" />
                             </div>
-                            <ol>
+                            <ol class="dishes">
                                 <p> <b class="menu">Lonche tradicional</b>
                                     <br>Combinación de pierna y lomo, jitomate, cebolla, crema y mostaza.
                                 </p>
@@ -99,7 +99,7 @@ echo <<< EOT
                             <div class="img-container">
                                 <img src="./img/menu/lonche-favorito.jpg" alt="" class="img-fluid pt-3 pb-3" style="height:380px" />
                             </div>
-                            <ol>
+                            <ol class="dishes">
                                 <p> <b class="menu">Lonche de cochinita</b>
                                     <br> Lonche doradito con cochinita al estilo Karlo's, jitomate, mayonesa, mostaza y una deliciosa ensalada de cebolla morada, zanahoria, pepina y un pequeño toque de habanero.
                                 </p>
@@ -149,7 +149,7 @@ echo <<< EOT
                         <div class="img-container">
                             <img src="./img/menu/hot-dog.jpg" alt="" class="img-fluid pt-3 pb-3" style="height:380px" />
                         </div>
-                        <ol>
+                        <ol class="dishes">
                             <p> <b class="menu">Hamburguesa</b>
                                 <br> Con queso.
                             </p>
@@ -187,12 +187,12 @@ echo <<< EOT
                 </div>
                 <div class="col-12 p-0">
                     <div class="position-relative overflow-hidden">
-                        <ol>
-                            <p> <b class="menu">Flan</b>
-                            </p>
-                            <p>
+                        <ol class="dishes">
+                            <h5> <b class="menu">Flan</b>
+                            </h5>
+                            <h5>
                                 <b class="menu">Jericalla</b>
-                            </p>
+                            </h5>
                         </ol>
                     </div>
                 </div>
@@ -216,7 +216,7 @@ echo <<< EOT
                 <div class="col-12 p-0">
                     <div class="position-relative overflow-hidden">
 
-                        <ol>
+                        <ol class="dishes">
                             <p> <b class="menu">Cervezas $48</b>
                                 <br> Victoria, Corona y Corona Light
                                 <br>Ultra, Modelo Especial y Negra Modelo
@@ -235,7 +235,7 @@ echo <<< EOT
                         <img src="./img/menu/bebida-fresca.jpg" alt="" class="img-fluid pt-3 pb-3" style="height:380px" />
                     </div>
                     <div class="position-relative overflow-hidden">
-                        <ol>
+                        <ol class="dishes">
                             <p> <b class="menu">Chaparrita $25</b></p>
 
                             <div class="row justify-content-between">
