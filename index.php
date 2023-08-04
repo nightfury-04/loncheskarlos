@@ -28,12 +28,11 @@
   <link href="css/style.css" rel="stylesheet" />
 </head>
 
-<body>
-  <!-- Top and navbar Start -->
-  <?php
-  include './components/navbar.php'
-  ?>
-  <!-- Top and navbar End -->
+  <body>
+    <!-- Top and navbar -->
+    <?php
+      include './components/navbar.php'
+    ?>
 
   <!-- Cover Start -->
   <div class="container-fluid p-0 mb-5 pb-5">
