@@ -133,10 +133,15 @@ h6,
   background-size: cover;
 }
 
-.header-contact {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../img/contact/coverContact.jpg), no-repeat center center;
-  background-size: cover;
+.header-branches {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../img/branches/coverBranches.jpg), no-repeat center center;
+    background-size: cover;
+}
+
+.header-about {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/covers/coverAbout.jpg), no-repeat center center;
+    background-size: cover;
 }
 
 .section-title::before {
@@ -150,13 +155,13 @@ h6,
 }
 
 .section-title::after {
-  position: absolute;
-  content: "";
-  top: -8px;
-  left: 0;
-  width: 100px;
-  height: 1px;
-  background: $secondary;
+    position: absolute;
+    content: "";
+    top: -8px;
+    left: 0;
+    width: 100px;
+    height: 1px;
+    background: $primary;
 }
 
 .section-title.text-center::before,
@@ -338,6 +343,10 @@ h6,
 
 .menu {
   color: #008f3e;
+}
+
+.dishes {
+    font-size: 1.25rem;
 }
 
 .img-container {
@@ -527,6 +536,22 @@ h6,
 
 .relative {
   position: relative;
+}
+
+.text-large {
+  font-size: 1.6rem;
+}
+
+.btnLocation {
+  color: $secondary;
+  border-color: $secondary;
+  width: 100%;
+}
+
+.btnLocation:active, .btnLocation:hover {
+    color: #fff;
+    background-color: $secondary;
+    border-color: $secondary;
 }
 
 @media (max-width: 575.98px) {

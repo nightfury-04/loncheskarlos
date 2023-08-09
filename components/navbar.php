@@ -1,38 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Lonches Karlo's</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Free HTML Templates" name="keywords" />
-    <meta content="Free HTML Templates" name="description" />
 
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon" />
+<head>
+  <meta charset="utf-8" />
+  <title>Lonches Karlo's</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="Free HTML Templates" name="keywords" />
+  <meta content="Free HTML Templates" name="description" />
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="icon" />
 
-    <!-- Font Awesome -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-      rel="stylesheet"
-    />
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet" />
-  </head>
+  <!-- Libraries Stylesheet -->
+  <!-- <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" /> -->
 
   <body>
+    <?php
+      if(!isset($active)) {
+        $active = 'home';
+      }
+
+      function isActive($val) {
+        global $active;
+
+        return $val === $active ? "active" : "";
+      }
+
+    ?>
+
     <div class="container-fluid bg-primary py-3 d-none d-md-block">
       <div class="container">
         <div class="row">
@@ -50,6 +54,7 @@
         </div>
       </div>
     </div>
+  </div>
 
     <div class="container-fluid position-relative nav-bar p-0">
       <div
@@ -75,24 +80,33 @@
             id="navbarCollapse"
           >
             <div class="navbar-nav ml-auto py-0">
-              <a href="index.php" class="nav-item nav-link active">Inicio</a>
-              <a href="about.php" class="nav-item nav-link">Nosotros</a>
-              <a href="branches.php" class="nav-item nav-link">Sucursales</a>
+              <a href="index.php" class="nav-item nav-link <?php echo isActive("home") ?>">Inicio</a>
+              <a href="about.php" class="nav-item nav-link <?php echo isActive("about") ?>">Nosotros</a>
+              <a href="branches.php" class="nav-item nav-link <?php echo isActive("branches") ?>">Sucursales</a>
             </div>
             <a href="index.php" class="navbar-brand mx-5 d-none d-lg-block">
               <h1 class="m-0 display-4 text-primary"> <em>Lonches</em> <span style="color: #473729; font-family: 'Galada', cursive"> karlo's </span></h1>
             </a>
             <div class="navbar-nav mr-auto py-0">
-              <a href="" class="nav-item nav-link"></a>
-              <a href="menu.php" class="nav-item nav-link">Menú</a>
-              <a href="contact.php" class="nav-item nav-link">Contacto</a>
+              <a href="menu.php" class="nav-item nav-link <?php echo isActive("menu") ?>">Menú</a>
+              <a href="contact.php" class="nav-item nav-link <?php echo isActive("contact") ?>">Contacto</a>
             </div>
           </div>
-        </nav>
-      </div>
+          <a href="index.php" class="navbar-brand mx-5 d-none d-lg-block">
+            <h1 class="m-0 display-4 text-primary"> <em>Lonches</em> <span style="color: #473729; font-family: 'Galada', cursive"> karlo's </span></h1>
+          </a>
+          <div class="navbar-nav mr-auto py-0">
+            <a href="" class="nav-item nav-link"></a>
+            <a href="menu.php" class="nav-item nav-link">Menú</a>
+            <a href="contact.php" class="nav-item nav-link">Contacto</a>
+          </div>
+        </div>
+      </nav>
     </div>
+  </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>

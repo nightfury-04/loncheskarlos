@@ -29,7 +29,8 @@
 <body>
     <!-- Top and navbar -->
     <?php
-    include './components/navbar.php'
+        $active = "menu";
+        include './components/navbar.php'
     ?>
 
     <!-- Header Start -->
@@ -44,7 +45,7 @@
     <div class="extra container text-center col-12 py-5">
         <div class="row">
             <div class="col-12">
-                <h2 style="color: white;">!NUESTRA SALSA KARLO'S ES ILIMITADA CON CADA PLATILLO QUE SE CONSUMA EN EL COMEDOR¡</h2>
+                <h2 style="color: white;">¡NUESTRA SALSA KARLO'S ES ILIMITADA CON CADA PLATILLO QUE SE CONSUMA EN EL COMEDOR!</h2>
             </div>
         </div>
     </div>
@@ -86,13 +87,13 @@
             </div>
         </div>
         <div class="row">
-            <div class="col">
+            <div class="col" style="border-right: 2px solid #fff;">
                 <h3 style="color: white;">Aguacate</h3>
             </div>
-            <div class="col">
+            <div class="col" style="border-right: 2px solid #fff;">
                 <h3 style="color: white;">Panela</h3>
             </div>
-            <div class="col">
+            <div class="col" style="border-right: 2px solid #fff;">
                 <h3 style="color: white;">Tocino</h3>
             </div>
             <div class="col">
