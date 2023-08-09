@@ -29,17 +29,18 @@
 <body>
     <!-- Top and navbar -->
     <?php
-        $active = "contact";
-        include './components/navbar.php'
+    $active = "contact";
+    include './components/navbar.php'
     ?>
 
 
     <!-- Header Start -->
-    <!-- Header Start -->
     <?php
-        $title = "Contacto";
-        $subtitle = "Contacto";
-        include './components/header.php'
+    $headerPage = "header-contact";
+    $title = "Contacto";
+    $subtitle = "Contacto";
+    $marginBottom = 0;
+    include './components/header.php'
     ?>
 
 
@@ -68,7 +69,31 @@
             </div>
         </div>
     </div>
-    
+
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <h1 class="section-title position-relative text-center mb-5">También nos puedes encontrar en:</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="contact-form bg-light rounded p-5">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <img src="./img/contact/uberEats.png" alt="logoUberEats" style="width: 55%;" />
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <img src="./img/contact/rappi.png" alt="logoRappi" style="height: 60%;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="row justify-content-center">
@@ -82,13 +107,16 @@
                         <div class="col-12 py-5 text-center">
                             <h4 class="font-weight-bold mb-3 text-large">Providencia</h4>
                             <h5 class="text-muted mb-3 text-large">
-                            Av. Rubén Darío 1549
+                                Av. Rubén Darío 1549, Providencia, 44630 Guadalajara, Jal.
                             </h5>
                             <p class="text-large">
-                            📱 33 38 17 23 40
-                            <br/>
-                            ⏰ 9:00 am a 11:00 pm
+                                📱 33 38 17 23 40
+                                <br />
+                                ⏰ 9:00 am a 11:00 pm
                             </p>
+                            <a href="https://goo.gl/maps/yXWhNCBkQaNRJkho9" target="_blank" class="btn btnLocation">
+                                ¿Cómo llegar?
+                            </a>
                         </div>
                     </div>
                 </div>
