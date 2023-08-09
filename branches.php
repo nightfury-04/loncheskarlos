@@ -29,14 +29,16 @@
 <body>
   <!-- Top and navbar -->
   <?php
+  $active = "branches";
   include './components/navbar.php'
   ?>
 
-
   <!-- Header Start -->
   <?php
+  $headerPage = "header-branches";
   $title = "Sucursales";
   $subtitle = "Sucursales";
+  $marginBottom = 0;
   include './components/header.php'
   ?>
 
@@ -64,16 +66,13 @@
               ⏰ 1:00 pm a 11:00 pm
 
             </p>
-            <div class="col align-self-center">
-              <!-- <a href="https://goo.gl/maps/4C95fHbzg9j76kLN6" class="btn btn-outline-success">
-                ¿Cómo llegar?
-              </a> -->
-              <button href="https://goo.gl/maps/4C95fHbzg9j76kLN6" class="btn btn-outline-success" type="button">¿Cómo llegar?</button>
-            </div>
+            <a href="https://goo.gl/maps/4C95fHbzg9j76kLN6" target="_blank" class="btn btnLocation">
+              ¿Cómo llegar?
+            </a>
           </div>
           <div class="col-12 col-lg-6" style="min-height: 400px">
             <div class="position-relative h-100 rounded overflow-hidden">
-              <img class="position-absolute w-100 h-100" src="img/about.jpg" style="object-fit: cover" />
+              <img class="position-absolute w-100 h-100" src="img/branches/branchChapalita.jpg" style="object-fit: cover" />
             </div>
           </div>
         </div>
@@ -91,10 +90,13 @@
               <br />
               ⏰ 2:00 pm a 10:00 pm
             </p>
+            <a href="https://goo.gl/maps/TJsEYhFQRbj3QRdR9" target="_blank" class="btn btnLocation">
+              ¿Cómo llegar?
+            </a>
           </div>
           <div class="col-12 col-lg-6" style="min-height: 400px">
             <div class="position-relative h-100 rounded overflow-hidden">
-              <img class="position-absolute w-100 h-100" src="img/about.jpg" style="object-fit: cover" />
+              <img class="position-absolute w-100 h-100" src="img/branches/branchValleReal.jpg" style="object-fit: cover" />
             </div>
           </div>
         </div>
@@ -106,17 +108,19 @@
             <h4 class="font-weight-bold mb-3 text-large">Providencia</h4>
             <h5 class="text-muted mb-3 text-large">
               Av. Rubén Darío 1549, Providencia, 44630 Guadalajara, Jal.
-
             </h5>
             <p class="text-large">
               📱 33 38 17 23 40
               <br />
               ⏰ 9:00 am a 11:00 pm
             </p>
+            <a href="https://goo.gl/maps/yXWhNCBkQaNRJkho9" target="_blank" class="btn btnLocation">
+              ¿Cómo llegar?
+            </a>
           </div>
           <div class="col-12 col-lg-6" style="min-height: 400px">
             <div class="position-relative h-100 rounded overflow-hidden">
-              <img class="position-absolute w-100 h-100" src="img/about.jpg" style="object-fit: cover" />
+              <img class="position-absolute w-100 h-100" src="img/branches/branchProvidencia.jpg" style="object-fit: cover" />
             </div>
           </div>
         </div>
@@ -134,10 +138,13 @@
               <br />
               ⏰ 10:00 am a 11:00 pm
             </p>
+            <a href="https://goo.gl/maps/b7mkYAP1mvuVitps9" target="_blank" class="btn btnLocation">
+              ¿Cómo llegar?
+            </a>
           </div>
           <div class="col-12 col-lg-6" style="min-height: 400px">
             <div class="position-relative h-100 rounded overflow-hidden">
-              <img class="position-absolute w-100 h-100" src="img/about.jpg" style="object-fit: cover" />
+              <img class="position-absolute w-100 h-100" src="img/branches/branchBugambilias.jpg" style="object-fit: cover" />
             </div>
           </div>
         </div>
