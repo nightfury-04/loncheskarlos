@@ -29,60 +29,100 @@
 <body>
     <!-- Top and navbar -->
     <?php
-      include './components/navbar.php'
+    $active = "contact";
+    include './components/navbar.php'
     ?>
 
 
-    <!-- Header Start -->
     <!-- Header Start -->
     <?php
-        $title = "Contacto";
-        $subtitle = "Contacto";
-        include './components/header.php'
+    $headerPage = "header-contact";
+    $title = "Contacto";
+    $subtitle = "Contacto";
+    $marginBottom = 0;
+    include './components/header.php'
     ?>
 
 
-    <!-- Contact Start -->
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
-                    <h1 class="section-title position-relative text-center mb-5">Contact Us For Any Query</h1>
+                    <h1 class="section-title position-relative text-center mb-5">Visita nuestras redes sociales</h1>
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-lg-9">
+                <div class="col-lg-6">
                     <div class="contact-form bg-light rounded p-5">
-                        <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="form-row">
-                                <div class="col-sm-6 control-group">
-                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="col-sm-6 control-group">
-                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
+                        <div class="row">
+                            <div class="col-12 col-lg-6 text-center mb-3">
+                                <i class="fab fa-facebook fa-5x mb-2 text-primary"></i>
+                                <a href="https://www.facebook.com/loncheskarlosgdl" target="_blank" class="d-block font-weight-bold m-0">Lonches Karlo's</a>
                             </div>
-                            <div class="control-group">
-                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
-                                <p class="help-block text-danger"></p>
+                            <div class="col-12 col-lg-6 text-center">
+                                <i class="fab fa-instagram fa-5x mb-2 text-primary"></i>
+                                <a href="https://www.instagram.com/loncheskarlos" target="_blank" class="d-block font-weight-bold m-0">@loncheskarlos</a>
                             </div>
-                            <div class="control-group">
-                                <textarea class="form-control p-4" rows="6" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div>
-                                <button class="btn btn-primary btn-block py-3 px-5" type="submit" id="sendMessageButton">Send Message</button>
-                            </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Contact End -->
+
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <h1 class="section-title position-relative text-center mb-5">También nos puedes encontrar en:</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="contact-form bg-light rounded p-5">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <img src="./img/contact/uberEats.png" alt="logoUberEats" style="width: 55%;" />
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <img src="./img/contact/rappi.png" alt="logoRappi" style="height: 60%;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <h1 class="section-title position-relative text-center mb-5">Sucursal Matriz</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-auto">
+                    <div class="contact-form bg-light rounded p-5">
+                        <div class="col-12 py-5 text-center">
+                            <h4 class="font-weight-bold mb-3 text-large">Providencia</h4>
+                            <h5 class="text-muted mb-3 text-large">
+                                Av. Rubén Darío 1549, Providencia, 44630 Guadalajara, Jal.
+                            </h5>
+                            <p class="text-large">
+                                📱 33 38 17 23 40
+                                <br />
+                                ⏰ 9:00 am a 11:00 pm
+                            </p>
+                            <a href="https://goo.gl/maps/yXWhNCBkQaNRJkho9" target="_blank" class="btn btnLocation">
+                                ¿Cómo llegar?
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- Footer -->

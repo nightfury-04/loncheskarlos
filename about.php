@@ -29,14 +29,17 @@
 <body>
     <!-- Top and navbar -->
     <?php
-      include './components/navbar.php'
+    $active = "about";
+    include './components/navbar.php'
     ?>
 
     <!-- Header Start -->
     <?php
-        $title = "Nosotros";
-        $subtitle = "Nosotros";
-        include './components/header.php'
+    $headerPage = "header-about";
+    $title = "Nosotros";
+    $subtitle = "Nosotros";
+    $marginBottom = 0;
+    include './components/header.php'
     ?>
 
 
@@ -45,101 +48,102 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-7">
-                    <h1 class="section-title position-relative text-center mb-5">Traditional & Delicious Ice Cream Since 1950</h1>
+                    <h1 class="section-title position-relative text-center mb-5">Los tradicionales lonches bañados desde 1980</h1>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" style="text-align: justify;">
                 <div class="col-lg-4 py-5">
-                    <h4 class="font-weight-bold mb-3">About Us</h4>
-                    <h5 class="text-muted mb-3">Eos kasd eos dolor vero vero, lorem stet diam rebum. Ipsum amet sed vero dolor sea</h5>
-                    <p>Takimata sed vero vero no sit sed, justo clita duo no duo amet et, nonumy kasd sed dolor eos diam lorem eirmod. Amet sit amet amet no. Est nonumy sed labore eirmod sit magna. Erat at est justo sit ut. Labor diam sed ipsum et eirmod</p>
-                    <a href="" class="btn btn-secondary mt-2">Learn More</a>
+                    <h4 class="font-weight-bold mb-3">Breve Historia</h4>
+                    <h5 class="text-muted mb-3">
+                        Lonches Karlo's inicio la gran aventura de ser una empresa líder en 1980.
+                    </h5>
+                    <p>
+                        Desde esas fechas es que se funda nuestra tradición en ofrecer los más deliciosos y prestigiosos Lonches Bañados de todo el Occidente, Contando como estandarte nuestros Lonches Tradicionales.
+                    </p>
                 </div>
                 <div class="col-lg-4" style="min-height: 400px;">
                     <div class="position-relative h-100 rounded overflow-hidden">
-                        <img class="position-absolute w-100 h-100" src="img/about.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="img/about/about(1).JPG" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-4 py-5">
-                    <h4 class="font-weight-bold mb-3">Our Features</h4>
-                    <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>
-                    <h5 class="text-muted mb-3"><i class="fa fa-check text-secondary mr-3"></i>Eos kasd eos dolor</h5>
-                    <h5 class="text-muted mb-3"><i class="fa fa-check text-secondary mr-3"></i>Eos kasd eos dolor</h5>
-                    <h5 class="text-muted mb-3"><i class="fa fa-check text-secondary mr-3"></i>Eos kasd eos dolor</h5>
-                    <a href="" class="btn btn-primary mt-2">Learn More</a>
+                    <p>
+                        Nuestro fundador proviene de una familia de restauranteros en la cual <span style="color: #473729; font-weight: bolder;">Karlo's</span> era el responsable de hacer la preparación y el ensamblado de los lonches. <br>
+                        Un día <span style="color: #473729; font-weight: bolder;">Karlo's</span> toma la decisión de comenzar su propio negocio. <br>
+                        Se establece con un carrito a fuera de su casa, el cual por motivos de ser un puesto ambulante se le es retirado el permiso, viéndose en esa situación toma la decisión de meter el carrito a su casa, haciendo con esto una forma de vida y de servicio.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid my-5 py-5 px-0">
+        <div class="row bg-primary m-0">
+            <div class="col-md-6 px-0" style="min-height: 500px">
+                <div class="position-relative h-100">
+                    <img class="position-absolute w-100 h-100" src="img/about/about(2).JPG" style="object-fit: cover" />
+                </div>
+            </div>
+            <div class="col-md-6 py-5 py-md-0 px-0">
+                <div class="h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
+                    <p style="color: white;">
+                        Se establece con un carrito a fuera de su casa, el cual por motivos de ser un puesto ambulante se le es retirado el permiso,
+                        viéndose en esa situación toma la decisión de meter el carrito a su casa, haciendo con esto <span style="color: #473729; font-weight: bold;"> forma de vida y de servicio. </span>
+                    </p>
+
+                    <h5 class=" mb-3" style="color: white;">
+                        Es de esta forma que hacemos de nuestros clientes:
+                    </h5>
+                    <h4 class="font-weight-bold mb-3 text-center" style="color: #473729;">
+                        <em>“Nuestros Invitados de honor”.</em>
+                    </h4>
                 </div>
             </div>
         </div>
     </div>
     <!-- About End -->
 
-
-    <!-- Team Start -->
+    <!-- Mission and Vission Start -->
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="row">
                 <div class="col-lg-6">
-                    <h1 class="section-title position-relative mb-5">Experienced & Most Famous Ice Cream Chefs</h1>
+                    <h1 class="section-title position-relative mb-5">
+                        Nuestra Misión y Visión
+                    </h1>
                 </div>
                 <div class="col-lg-6 mb-5 mb-lg-0 pb-5 pb-lg-0"></div>
             </div>
             <div class="row">
-                <div class="col-12">
-                    <div class="owl-carousel team-carousel">
-                        <div class="team-item">
-                            <div class="team-img mx-auto">
-                                <img class="rounded-circle w-100 h-100" src="img/team-1.jpg" style="object-fit: cover;">
-                            </div>
-                            <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
-                                <h3 class="font-weight-bold mt-5 mb-3 pt-5">Full Name</h3>
-                                <h6 class="text-uppercase text-muted mb-4">Designation</h6>
-                                <div class="d-flex justify-content-center pt-1">
-                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
+                <div class="col-12 col-lg-6 pb-4">
+                    <div class="team-item">
+                        <div class="team-img mx-auto">
+                            <img class="rounded-circle w-100 h-100" src="img/about/about(3).jpg" style="object-fit: cover;">
+                        </div>
+                        <div class="position-relative text-center rounded px-4 py-5" style="background-color: #473729; margin-top: -100px;">
+                            <h3 class="font-weight-bold mt-5 mb-3 pt-5" style="color: white;">Misión</h3>
+                            <div class="d-flex justify-content-center pt-1">
+                                <p style="color: white;">
+                                    Brindar una experiencia de sabor y tradición, en un excelente ambiente y servicio,
+                                    con un resultado de calidad para inspirar gusto y alegría a nuestros invitados y colaboradores.
+                                </p>
                             </div>
                         </div>
-                        <div class="team-item">
-                            <div class="team-img mx-auto">
-                                <img class="rounded-circle w-100 h-100" src="img/team-2.jpg" style="object-fit: cover;">
-                            </div>
-                            <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
-                                <h3 class="font-weight-bold mt-5 mb-3 pt-5">Full Name</h3>
-                                <h6 class="text-uppercase text-muted mb-4">Designation</h6>
-                                <div class="d-flex justify-content-center pt-1">
-                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <div class="team-item">
+                        <div class="team-img mx-auto">
+                            <img class="rounded-circle w-100 h-100" src="img/about/about(4).jpg" style="object-fit: cover;">
                         </div>
-                        <div class="team-item">
-                            <div class="team-img mx-auto">
-                                <img class="rounded-circle w-100 h-100" src="img/team-3.jpg" style="object-fit: cover;">
-                            </div>
-                            <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
-                                <h3 class="font-weight-bold mt-5 mb-3 pt-5">Full Name</h3>
-                                <h6 class="text-uppercase text-muted mb-4">Designation</h6>
-                                <div class="d-flex justify-content-center pt-1">
-                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-item">
-                            <div class="team-img mx-auto">
-                                <img class="rounded-circle w-100 h-100" src="img/team-4.jpg" style="object-fit: cover;">
-                            </div>
-                            <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
-                                <h3 class="font-weight-bold mt-5 mb-3 pt-5">Full Name</h3>
-                                <h6 class="text-uppercase text-muted mb-4">Designation</h6>
-                                <div class="d-flex justify-content-center pt-1">
-                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
+                        <div class="position-relative text-center rounded px-4 py-5" style="background-color: #473729; margin-top: -100px;">
+                            <h3 class="font-weight-bold mt-5 mb-3 pt-5" style="color: white;">Visión</h3>
+                            <div class="d-flex justify-content-center pt-1">
+                                <p style="color: white;">
+                                    Ser un equipo innovador con rumbo a la expansión, distinguiendo a la empresa por ser auto sustentable
+                                    generadora de rentabilidad, motivación, crecimiento y trato humano.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -147,7 +151,7 @@
             </div>
         </div>
     </div>
-    <!-- Team End -->
+    <!-- Mission and Vission End -->
 
 
     <!-- Footer -->

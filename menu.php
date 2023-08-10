@@ -29,92 +29,82 @@
 <body>
     <!-- Top and navbar -->
     <?php
-      include './components/navbar.php'
+        $active = "menu";
+        include './components/navbar.php'
     ?>
 
     <!-- Header Start -->
     <?php
-        $title = "Menú";
-        $subtitle = "Menú";
-        include './components/header.php'
+    $headerPage = "header-menu";
+    $title = "Menú";
+    $subtitle = "Menú";
+    $marginBottom = 0;
+    include './components/header.php'
     ?>
 
+    <div class="extra container text-center col-12 py-5">
+        <div class="row">
+            <div class="col-12">
+                <h2 style="color: white;">¡NUESTRA SALSA KARLO'S ES ILIMITADA CON CADA PLATILLO QUE SE CONSUMA EN EL COMEDOR!</h2>
+            </div>
+        </div>
+    </div>
 
     <!-- Portfolio Start -->
     <div class="container-fluid py-5 px-0">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-5">
-                    <h1 class="section-title position-relative text-center mb-5">Delicious Ice Cream Made From Our Very Own Organic Milk</h1>
+                    <h1 class="section-title position-relative text-center mb-5">Los lonches con más tradición tapatía</h1>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 text-center">
                     <ul class="list-inline mb-4 pb-2" id="portfolio-flters">
-                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">All</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Cone</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Vanilla</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Chocolate</li>
+                        <li class="btn btn-sm btn-outline-primary m-1 active" data-filter="*">Todo</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".lunch">Lonches</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".other">Otros</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".drink">Bebidas</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".dessert">Postres</li>
                     </ul>
                 </div>
             </div>
-            <div class="row m-0 portfolio-container">
-                <div class="col-lg-4 col-md-6 p-0 portfolio-item first">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
-                        <a class="portfolio-btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                            <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 p-0 portfolio-item second">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
-                        <a class="portfolio-btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">
-                            <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 p-0 portfolio-item third">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
-                        <a class="portfolio-btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                            <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 p-0 portfolio-item first">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
-                        <a class="portfolio-btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                            <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 p-0 portfolio-item second">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
-                        <a class="portfolio-btn" href="img/portfolio-5.jpg" data-lightbox="portfolio">
-                            <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 p-0 portfolio-item third">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
-                        <a class="portfolio-btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">
-                            <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
+
+            <?php
+            include './components/menuSections.php'
+            ?>
         </div>
     </div>
     <!-- Portfolio End -->
 
+    <div class="circle-extra">
+        <h2 style="color: white;">$25</h2>
+    </div>
+    <div class="extra container text-center col-12 py-2">
+        <div class="row">
+            <div class="col-12">
+                <h2 style="color: white;">Extras</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" style="border-right: 2px solid #fff;">
+                <h3 style="color: white;">Aguacate</h3>
+            </div>
+            <div class="col" style="border-right: 2px solid #fff;">
+                <h3 style="color: white;">Panela</h3>
+            </div>
+            <div class="col" style="border-right: 2px solid #fff;">
+                <h3 style="color: white;">Tocino</h3>
+            </div>
+            <div class="col">
+                <h3 style="color: white;">Queso</h3>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Footer Start -->
-    <div class="container-fluid footer bg-light py-5" style="margin-top: 90px;">
+    <div class="container-fluid footer bg-light py-5" style="">
         <div class="container text-center py-5">
             <div class="row">
                 <div class="col-12 mb-4">
