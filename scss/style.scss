@@ -554,8 +554,17 @@ h6,
     border-color: $secondary;
 }
 
+.footerBranches {
+    list-style: none;
+    padding-left: 0;
+}
+
+.borderFooter {
+  border-right: 1px solid $primary;
+}
+
 @media (max-width: 575.98px) {
-  .footer .border-right {
-    border-right: none !important;
-  }
+    .footer .borderFooter {
+        border-right: none !important;
+    }
 }
