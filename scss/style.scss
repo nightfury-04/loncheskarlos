@@ -451,10 +451,15 @@ h6,
 
 .footerBranches {
     list-style: none;
+    padding-left: 0;
+}
+
+.borderFooter {
+  border-right: 1px solid $primary;
 }
 
 @media (max-width: 575.98px) {
-    .footer .border-right {
+    .footer .borderFooter {
         border-right: none !important;
     }
 }

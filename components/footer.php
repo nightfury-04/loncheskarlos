@@ -43,7 +43,7 @@
                 </div>
                 <div class="col-12 mt-2 mb-4">
                     <div class="row">
-                        <div class="col-sm-6 text-center text-sm-right mb-3 mb-sm-0" style="border-right: 2px solid #009A44;">
+                        <div class="col-sm-6 text-center text-sm-right mb-3 mb-sm-0 borderFooter">
                             <h5 class="font-weight-bold mb-2">Visitanos en nuestras diferentes sucursales</h5>
                             <ul class="footerBranches">
                                 <li>Chapalita</li>
