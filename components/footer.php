@@ -65,8 +65,7 @@
                 </div>
                 <div class="col-12">
                     <p class="m-0">
-                        &copy; <a href="#">Domain</a>. All Rights Reserved. Designed by
-                        <a href="https://htmlcodex.com">HTML Codex</a>
+                        &copy; <span style="color: #009A44;">2023</span> | Todos los derechos reservados | <span style="color: #009A44;">Lonches Karlo's</span>
                     </p>
                 </div>
             </div>
