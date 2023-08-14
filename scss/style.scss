@@ -103,6 +103,8 @@ h6,
   #header-carousel,
   .page-header,
   .header-menu,
+  .header-branches,
+  .header-about,
   .header-contact {
     margin-top: -45px;
   }
@@ -143,7 +145,7 @@ h6,
 
 .header-contact {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../img/covers/coverContacto.jpg), no-repeat center center;
+    url(../img/covers/coverContact.jpg), no-repeat center center;
   background-size: cover;
 }
 
