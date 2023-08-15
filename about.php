@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Lonches Karlo's</title>
+    <title>Lonches Karlo's | Página Web Oficial</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -24,6 +24,9 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./img/logoLK.png" />
 </head>
 
 <body>
@@ -156,7 +159,7 @@
 
     <!-- Footer -->
     <?php
-      include './components/footer.php'
+    include './components/footer.php'
     ?>
 
     <!-- Back to Top -->
