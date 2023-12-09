@@ -81,7 +81,7 @@
     <!-- Portfolio End -->
 
     <div class="circle-extra">
-        <h2 style="color: white;">$25</h2>
+        <h2 style="color: white;">$30</h2>
     </div>
     <div class="extra container text-center col-12 py-2">
         <div class="row">

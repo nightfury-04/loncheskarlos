@@ -18,7 +18,7 @@ echo <<< EOT
                                 <h3 class="menu">Especiales</h3>
                                 </div>
                                 <div class="col-auto">
-                                <h2>$90</h2>
+                                <h2>$99</h2>
                                 </div>
                             </div>
                             
@@ -49,6 +49,10 @@ echo <<< EOT
                                     <b class="menu">Hot dog de camarón</b>
                                     <br> Elige entre: camarón Karlo's o camarón a la diabla.
                                 </p>
+                                <p>
+                                    <b class="menu">Lonche de cochinita</b>
+                                    <br> Lonche doradito con cochinita al estilo Karlos, jitomate, mayonesa, mostaza y una deliciosa ensalada de cebolla morada, zanahoria, pepino y un pequeño toque de habanero.
+                                </p>
                             </ol>
 
                         </div>
@@ -61,7 +65,7 @@ echo <<< EOT
                                         <h3 class="menu">Los Legendarios</h3>
                                     </div>
                                     <div class="col-auto">
-                                        <h2>$65</h2>
+                                        <h2>$70</h2>
                                     </div>
                             </div>
                             <div class="img-container">
@@ -92,7 +96,7 @@ echo <<< EOT
                                     <h3 class="menu">Favoritos</h3>
                                 </div>
                                 <div class="col-auto">
-                                    <h2>$75</h2>
+                                    <h2>$85</h2>
                                 </div>
                             </div>
 
@@ -142,7 +146,7 @@ echo <<< EOT
                                 <h3 class="menu">¡No todo es lonche!</h3>
                             </div>
                             <div class="col-auto">
-                                <h2>$55</h2>
+                                <h2>$60</h2>
                             </div>
                         </div>
 
@@ -178,7 +182,7 @@ echo <<< EOT
                         <h1 class="other-title">Postres</h1>
                     </div>
                     <div class="col-auto">
-                        <h2>$55</h2>
+                        <h2>$40</h2>
                     </div>
                 </div>
                
@@ -217,14 +221,8 @@ echo <<< EOT
                     <div class="position-relative overflow-hidden">
 
                         <ol class="dishes">
-                            <p> <b class="menu">Cervezas $48</b>
-                                <br> Victoria, Corona y Corona Light
-                                <br>Ultra, Modelo Especial y Negra Modelo
-                            </p>
-                            <p>
-                                <b class="menu">Cerveza Artesanal $75</b>
-                                <br> Cerveceria de Colima
-                                Colimita, Piedra Lisa Y Cayaco Light
+                            <p> <b class="menu">Cervezas 2x1 $60</b>
+                                <br> De lunes a jueves por persona, NO APLICA EN PAQUETES DUOS
                             </p>
                         </ol>
                     </div>
@@ -236,7 +234,7 @@ echo <<< EOT
                     </div>
                     <div class="position-relative overflow-hidden">
                         <ol class="dishes">
-                            <p> <b class="menu">Chaparrita $25</b></p>
+                            <p> <b class="menu">Chaparrita $30</b></p>
 
                             <div class="row justify-content-between">
                                 <div class="col-auto">
@@ -255,7 +253,7 @@ echo <<< EOT
                                     <p> <b class="menu">Agua natural</b></p>
                                 </div>
                                 <div class="col-auto">
-                                    <h2>$35</h2>
+                                    <h2>$40</h2>
                                 </div>
                             </div>
                         </ol>

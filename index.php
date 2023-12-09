@@ -49,7 +49,7 @@
                 Los Lonches Bañados con mayor tradición tapatía.
               </h4>
               <h1 class="display-3 text-white mb-md-4">
-                Tenemos 38 años compartiendo contigo.
+                Tenemos 41 años compartiendo contigo.
               </h1>
             </div>
           </div>
